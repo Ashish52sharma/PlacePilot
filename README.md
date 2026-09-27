@@ -10,6 +10,10 @@ https://placepilot-ashish.netlify.app/
 
 https://github.com/Ashish52sharma/PlacePilot
 
+## 📸 Dashboard
+
+![PlacePilot Dashboard](placepilot_dashboard.png)
+
 ## ✨ Features
 
 * User Registration and Login
