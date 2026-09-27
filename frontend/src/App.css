@@ -1,0 +1,255 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+}
+
+#root {
+    min-height: 100vh;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+button {
+    padding: 8px 14px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input,
+select,
+textarea {
+    padding: 9px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    min-height: 60px;
+    resize: vertical;
+}
+.auth-container {
+    width: 100%;
+    margin: 0;
+    padding: 40px 20px;
+    background: linear-gradient(135deg, #f4f6f8, #e8ebef);
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    min-height: 100vh;
+box-sizing: border-box;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.auth-container h1 {
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+.auth-container h2 {
+    margin-top: 10px;
+}
+
+.auth-container input {
+    width: 90%;
+    box-sizing: border-box;
+}
+
+.auth-container button {
+    background-color: #333;
+    color: white;
+}
+.dashboard {
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.dashboard h3 {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.dashboard input,
+.dashboard select,
+.dashboard textarea {
+    max-width: 400px;
+}
+
+.dashboard hr {
+    margin: 25px 0;
+    border: none;
+    border-top: 1px solid #ddd;
+}
+.application-card {
+    padding: 20px;
+    margin: 15px 0;
+    border: 1px solid #cfd4da;
+    border-left: 5px solid #333;
+    border-radius: 8px;
+    background-color:#f7f7f7;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+transition: 0.2s;
+}
+
+.application-card h3 {
+    margin-top: 0;
+    font-size: 22px;
+}
+
+.application-card p {
+    margin: 8px 0;
+}
+
+.application-card button {
+    margin-top: 10px;
+}
+button {
+    background-color: #333;
+    color: white;
+}
+
+button:hover {
+    background-color: #555;
+}
+.dashboard h2 {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 8px;
+}
+
+.dashboard h3 {
+    color: #333;
+}
+
+.application-form {
+    padding: 20px;
+    margin: 20px 0;
+    border: 2px solid #333;
+    border-radius: 8px;
+    background-color: #fafafa;
+}
+
+.application-form h3 {
+    margin-top: 0;
+}
+.preparation-section {
+    padding: 20px;
+    margin: 20px 0;
+    border: 2px solid #555;
+    border-radius: 8px;
+    background-color: #fafafa;
+}
+
+.preparation-section h2 {
+    margin-top: 0;
+}
+.interview-section {
+    padding: 20px;
+    margin: 20px 0;
+    border: 2px solid #777;
+    border-radius: 8px;
+    background-color: #fafafa;
+}
+
+.interview-section h2 {
+    margin-top: 0;
+}
+.application-status {
+    margin-top: 10px;
+}
+
+.application-status strong {
+    padding: 4px 8px;
+    border-radius: 4px;
+    background-color: #e9ecef;
+}
+.preparation-card {
+    padding: 15px 20px;
+    margin: 10px 0;
+    border: 1px solid #d6dbe1;
+    border-left: 5px solid #555;
+    border-radius: 6px;
+    background-color: #f7f7f7;
+}
+
+.preparation-card p {
+    margin: 6px 0;
+}
+
+.preparation-card button {
+    margin-top: 8px;
+}
+.interview-card {
+    padding: 15px 20px;
+    margin: 10px 0;
+    border: 1px solid #d6dbe1;
+    border-left: 5px solid #777;
+    border-radius: 6px;
+    background-color:  #f7f7f7;
+}
+
+.interview-card p {
+    margin: 6px 0;
+}
+
+.interview-card strong {
+    font-size: 18px;
+}
+.logout-button {
+    background-color: #555;
+}
+
+.logout-button:hover {
+    background-color: #4b4a4a !important;
+}
+.app-title {
+    font-size: 66px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    margin-bottom: 5px;
+    background: linear-gradient(90deg, #222, #666);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.app-tagline {
+    margin-top: 0;
+    margin-bottom: 28px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #4c4b4b;
+    letter-spacing: 1px;
+}
+.app-title::after {
+    content: "";
+    display: block;
+    width: 55px;
+    height: 3px;
+    margin: 8px auto 0;
+    background-color: #333;
+    border-radius: 3px;
+}
+.application-card:hover {
+    transform: translateY(-4px);
+}
+.app-title {
+    font-size: 66px !important;
+     line-height: 1.2;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
